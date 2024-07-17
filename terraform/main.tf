@@ -1,6 +1,6 @@
 provider "google" {
   project = "idme-demo-429222"
-  credentials = file("credentials.json")
+  credentials = ${{ secrets.GCP_CREDENTIALS }}
   region  = var.region
 }
 
