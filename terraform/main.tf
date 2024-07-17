@@ -51,3 +51,4 @@ output "kubernetes_cluster_name" {
 output "region" {
   value = var.region
 }
+
